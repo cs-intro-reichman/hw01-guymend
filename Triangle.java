@@ -5,6 +5,19 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// Put your code here	
+		// Put your code here
+		int sideOne = Integer.valueOf(args[0]);
+		int sideTwo = Integer.valueOf(args[1]);
+		int sideThree = Integer.valueOf(args[2]);
+		boolean isTriangle = false;
+		if ( (sideOne + sideTwo) > sideThree ){
+			isTriangle = true;
+		}else if ( (sideOne + sideThree) > sideTwo ){
+			isTriangle = true;
+		}else if ( (sideTwo + sideThree) > sideOne ){
+			isTriangle = true;
+		}
+		System.out.println(sideOne + " , " + sideTwo + " , " + sideThree + " : " + isTriangle);
+		
 	}
 }
