@@ -9,7 +9,7 @@ public class Triangle {
 		int sideOne = Integer.valueOf(args[0]);
 		int sideTwo = Integer.valueOf(args[1]);
 		int sideThree = Integer.valueOf(args[2]);
-		string isTriangle = "false";
+		String isTriangle = "false";
 		if ( ((sideOne + sideTwo) > sideThree ) && ((sideOne + sideThree) > sideTwo) && ((sideTwo + sideThree) > sideOne)){
 			isTriangle = "true";
 		}
