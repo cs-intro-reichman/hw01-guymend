@@ -3,10 +3,10 @@
  * prints them, and then prints the minimal number that was generated.
  */
 public class GenThree {
-	public static void main(int[] args) {
+	public static void main(String[] args) {
 		// Put your code here
-		int min = args[0]; 
-		int max = args[1];
+		int min = Integer.valueOf( args[0] ); 
+		int max = Integer.valueOf( args[1] );
 		int i = 0;
 		int numberArray[];
 		while( i < 3 ){
