@@ -13,7 +13,7 @@ public class Triangle {
 		if ( ((sideOne + sideTwo) > sideThree ) && ((sideOne + sideThree) > sideTwo) && ((sideTwo + sideThree) > sideOne)){
 			isTriangle = "true";
 		}
-		System.out.println(sideOne + ", " + sideTwo + ", " + sideThree + " : " + isTriangle);
+		System.out.println(sideOne + ", " + sideTwo + ", " + sideThree + ": " + isTriangle);
 		
 	}
 }
