@@ -8,7 +8,7 @@ public class GenThree {
 		int min = Integer.valueOf( args[0] ); 
 		int max = Integer.valueOf( args[1] );
 		int i = 0;
-		int[] myIntArray = new int[3];
+		int[] numberArray = new int[3];
 		while( i < 3 ){
 	        	numberArray[i] = (int)Math.floor( Math.random() * (max - min + 1) + min );
 			System.out.println( numberArray[i] );
