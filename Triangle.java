@@ -10,14 +10,10 @@ public class Triangle {
 		int sideTwo = Integer.valueOf(args[1]);
 		int sideThree = Integer.valueOf(args[2]);
 		boolean isTriangle = false;
-		if ( (sideOne + sideTwo) > sideThree ){
-			isTriangle = true;
-		}else if ( (sideOne + sideThree) > sideTwo ){
-			isTriangle = true;
-		}else if ( (sideTwo + sideThree) > sideOne ){
+		if ( ((sideOne + sideTwo) > sideThree ) && ((sideOne + sideThree) > sideTwo) && ((sideTwo + sideThree) > sideOne)){
 			isTriangle = true;
 		}
-		System.out.println(sideOne + " , " + sideTwo + " , " + sideThree + " : " + isTriangle);
+		System.out.println(sideOne + ", " + sideTwo + ", " + sideThree + " : " + isTriangle);
 		
 	}
 }
