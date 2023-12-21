@@ -10,7 +10,7 @@ public class GenThree {
 		int i = 0;
 		int[] numberArray = new int[3];
 		while( i < 3 ){
-	        	numberArray[i] = (int)Math.floor( Math.random() * (max - min + 1) + min );
+	        	numberArray[i] = (int)( Math.random() * (max - min) + min );
 			i = i + 1;
 		}
 		int minNumber = Math.min( numberArray[0], numberArray[1] );
