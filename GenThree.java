@@ -11,11 +11,10 @@ public class GenThree {
 		int[] numberArray = new int[3];
 		while( i < 3 ){
 	        	numberArray[i] = (int)Math.floor( Math.random() * (max - min + 1) + min );
-			System.out.println( numberArray[i] );
 			i = i + 1;
 		}
 		int minNumber = Math.min( numberArray[0], numberArray[1] );
 		minNumber = Math.min( numberArray[2], minNumber );
-		System.out.println( "The minimal generated number was "+ minNumber );
+		System.out.println( numberArray[0] + "\n" + numberArray[1] + "\n" + numberArray[2] + "\n" + "The minimal generated number was "+ minNumber );
 	}
 }
